@@ -1,3 +1,31 @@
-обновил стили
-исправлена ошибка в html
-добавил код
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Карточки с template</title>
+  <link rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+
+  <button id="add-btn">Добавить карточку</button>
+
+  <div class="card-container" id="card-container">
+    <!-- Карточки будут добавляться сюда -->
+  </div>
+
+  <!-- Шаблон карточки -->
+  <template id="card-template">
+    <div class="card">
+      <button class="remove-btn">X</button>
+      <img class = "card-image" />
+      <h3 class="card-title">Заголовок</h3>
+      <p class="card-text">Текст карточки</p>
+    </div>
+  </template>
+
+  <script src = "script.js">
+    // Сюда ты будешь писать код
+  </script>
+
+</body>
+</html>
